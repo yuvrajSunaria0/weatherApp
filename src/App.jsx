@@ -29,7 +29,7 @@ const tite="Hourly"
 
 
   return (
-    <div  className={`${bgColor} overflow-hidden scroll  sm:px-5 pb-8 h-max 2xl:w-500 2xl:h-380 scrollbar-width:none `}>
+    <div  className={`${bgColor} overflow-hidden scroll  sm:px-5 pb-8 w-screen  scrollbar-width:none `}>
     <Input  weatherData={setCity}/>
     {details && (
       <>
