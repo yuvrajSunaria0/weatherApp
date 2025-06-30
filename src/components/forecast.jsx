@@ -12,7 +12,7 @@ function Forecast({ title, data }) {
         {data && ( < div className='flex font-sans justify-center flex-col mt-5 text-white p-1'>
             <h1 className='ml-2 mb-2 font-bold '>{title}</h1>
 
-            <div className=" mr-0 flex items-center mt-3 justify-between overflow-x-auto no-scrollbar  rounded-4xl  bg-gradient-to-b from-slate-600 to-slate-500   p-2 shadow-xl  xl:mx-40  xl:w-3.5 ">
+            <div className=" mr-0 flex items-center mt-3 justify-between overflow-x-auto no-scrollbar  rounded-4xl  bg-gradient-to-b from-slate-600 to-slate-500   p-2 shadow-xl  xl:mx-40   ">
                 {data.map((d, index) => (
                     <>
                         {/* */}
